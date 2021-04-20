@@ -1,8 +1,13 @@
 import React from "react";
+import Objective from "../components/objective";
 import EducationContainer from "../components/education-container";
 import Header from "../components/header";
 import Projects from "../components/projects";
 import Skills from "../components/skills";
+import Interest from "../components/interests";
+import Certificates from "../components/certifications";
+import Language from "../components/languages";
+import Achievement from "../components/achievement";
 import WorkExperience from "../components/work-experience";
 
 function Home() {
@@ -19,15 +24,22 @@ function Home() {
                 <div className="ui segment padding-no-vertical">
                   <Header />
                 </div>
-                <div className="ui segment padding-no">
+                <div className="ui segment padding-no-vertical">
                   <div className="ui stackable grid margin-no">
+                    <div className="sixteen wide column  padding-vs">
+                      <Objective />
+                    </div>
                     <div className="six wide column padding-vs">
                       <WorkExperience />
                       <Skills />
-                      <EducationContainer />
+                      <Interest />
+                      <Language />
                     </div>
                     <div className="ten wide column padding-vs">
+                      <EducationContainer />
                       <Projects />
+                      <Certificates />
+                      <Achievement />
                     </div>
                   </div>
                 </div>

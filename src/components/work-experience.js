@@ -16,15 +16,9 @@ function WorkExperience() {
       return [
         {
           image_url: "/assets/images/talview.png",
-          role: "Front-end developer",
-          org: "Talview",
-          duration: `Jun 2018 – Present (${date.years()} yrs ${date.months()} mos)`
-        },
-        {
-          image_url: "/assets/images/talview.png",
-          role: "Frontend Developer Intern",
-          org: "Talview",
-          duration: "Jan 2018 – Apr 2018 (4 mos)"
+          role: "Sales and Marketing Intern",
+          org: "SkillGenic Academy",
+          duration: "Feb 2021 – Mar 2021 (1 mos)"
         }
       ];
     }
