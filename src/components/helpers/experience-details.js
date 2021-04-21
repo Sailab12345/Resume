@@ -6,9 +6,9 @@ function ExperienceDetails(props) {
   return (
     <div className="ui segment box-shadow-none">
       <div className="ui grid margin">
-        <div className="column content-logo-width">
+        {/* <div className="column content-logo-width">
           <img width="24" src={data.image_url} loading="lazy" height="24" alt="" />
-        </div>
+        </div> */}
         <div className="fourteen wide column">
           <p className="margin-no margin-five-bottom text-weight-medium text-size-normal">
             {data.role}
