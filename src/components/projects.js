@@ -6,7 +6,7 @@ function Projects() {
   const projectsList = [
     {
       name: "Result Analysis System",
-      roles: ["Faculty Members", "HODs"],
+      roles: ["Development", "Documentation"],
       description:
         "It is a Web Application that enables the stakeholders to analyse the annual academic performance of the students in a graphical manner. ",
       framework: ".Net",
